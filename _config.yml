@@ -1,0 +1,9 @@
+# Site settings
+title: CS267 HW0 - Parallel Computing in Medical Imaging
+author: Aleks Kamko
+email: aykamko@gmail.com
+baseurl: "/cs267-hw0" # the subpath of your site, e.g. /blog/
+url: "http://alekskamko.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
