@@ -2,6 +2,12 @@
 layout: default
 ---
 
+# About Me
+
+My name is [Aleks Kamko](http://alekskamko.com). I'm a fourth year undergraduate in the EECS major. Ever since taking Operating Systems at Cal, I have been fascinated with system architecture--consequently, I am a TA for Operating Systems for 2 semesters now. This has been a large motivation for me taking this course: I am very interested in the architecture designs and programming paradigms underlying the various flavors of parallel computing. I am also interested in Data Science, so I hope this class will augment my repertoire of techniques to write efficient, parallel data analysis algorithms and systems. And of course, parallel computing is becoming more and more important in industry; I believe that knowing how to properly write and use parallel programs is an invaluable skill -- and it's pretty cool one too!
+
+# Parallel Computing in Medical Imaging
+
 In the past decade, Medical Imaging has emerged as one of the most important applications of parallel computing. In particular, GPU processing has accelerated MRI reconstruction algorithms by a factor of 21x compared to conventional quad-core CPUs, and has reduced image error along the way [[1]](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3142623/).
 
 In the past, MRI scan patterns and reconstruction applications were specifically designed for CPUs. Scans would be done in a Cartesian trajectory, allowing for CPUs to easy reconstruct the images using FFT. However, MRIs can benefit significantly by using more advanced image reconstruction techniques. MRIs tend to produce better images (less noise, fewer artifacts, etc.) if scans are done in radial or spiral trajectories [see image below], but this leads to much more expensive reconstruction algorithms, which are computationally expensive for CPUs.
